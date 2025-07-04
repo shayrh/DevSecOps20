@@ -411,6 +411,6 @@ Special thanks to:
 
 ---
 
-**Made with ❤️ by the DevSecOps Course Team**
+**Made with ❤️ by the Hothaifa zoubi **
 
 *Last updated: July 2025*
