@@ -1,0 +1,40 @@
+# Site settings
+title: "DevSecOps20"
+description: "Comprehensive DevSecOps training course with hands-on labs"
+baseurl: "/devsecops20"
+url: "https://hothaifa96.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Navigation
+navigation:
+  - title: "Course Outline"
+    url: "/course-outline"
+  - title: "Prerequisites"
+    url: "/prerequisites"
+  - title: "Lessons"
+    url: "/lessons"
+  - title: "Labs"
+    url: "/labs"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Resources"
+    url: "/resources"
+
+# Collections
+collections:
+  lessons:
+    output: true
+    permalink: /:collection/:name/
+  labs:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
