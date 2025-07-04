@@ -119,7 +119,7 @@ graph TD
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/DevSecOps20.git
+   git clone https://github.com/hothaifa11/DevSecOps20.git
    cd DevSecOps20
    ```
 
@@ -133,7 +133,7 @@ graph TD
    ```
 
 3. **Start Learning**
-   - Visit the [Course Website](https://yourusername.github.io/DevSecOps20)
+   - Visit the [Course Website](https://hothaifa11.github.io/DevSecOps20)
    - Begin with [Module 1: Linux Basics](lessons/01-linux-basics/README.md)
    - Follow the structured learning path
 
@@ -318,7 +318,7 @@ Build a complete DevSecOps pipeline including:
 
 ### Community & Support
 - [Discord Community](https://discord.gg/DevSecOps20)
-- [GitHub Discussions](https://github.com/yourusername/DevSecOps20/discussions)
+- [GitHub Discussions](https://github.com/hothaifa11/DevSecOps20/discussions)
 - [Office Hours](https://calendly.com/instructor/office-hours)
 
 ## 🤝 Contributing
@@ -403,7 +403,7 @@ Special thanks to:
 5. **Share your progress** with the community
 
 ### Quick Links
-- 🌐 [Course Website](https://yourusername.github.io/DevSecOps20)
+- 🌐 [Course Website](https://hothaifa11.github.io/DevSecOps20)
 - 📚 [Start Learning](lessons/01-linux-basics/README.md)
 - 🛠️ [Setup Guide](docs/setup-guide.md)
 - 💬 [Join Community](https://discord.gg/DevSecOps20)
