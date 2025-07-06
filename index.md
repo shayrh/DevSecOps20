@@ -4,6 +4,7 @@ title: "DevSecOps Course - Elite Training Program"
 description: "Master DevSecOps with cutting-edge labs, real-world projects, and advanced cybersecurity practices"
 ---
 
+<div class="cyber-background"></div>
 <div class="floating-particles">
   <div class="particle" style="left: 10%; animation-delay: 0s;"></div>
   <div class="particle" style="left: 20%; animation-delay: 1s;"></div>
@@ -14,6 +15,15 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
   <div class="particle" style="left: 70%; animation-delay: 0.5s;"></div>
   <div class="particle" style="left: 80%; animation-delay: 1.5s;"></div>
   <div class="particle" style="left: 90%; animation-delay: 2.5s;"></div>
+  <div class="particle" style="left: 15%; animation-delay: 6s;"></div>
+  <div class="particle" style="left: 25%; animation-delay: 7s;"></div>
+  <div class="particle" style="left: 35%; animation-delay: 8s;"></div>
+  <div class="particle" style="left: 45%; animation-delay: 9s;"></div>
+  <div class="particle" style="left: 55%; animation-delay: 10s;"></div>
+  <div class="particle" style="left: 65%; animation-delay: 11s;"></div>
+  <div class="particle" style="left: 75%; animation-delay: 12s;"></div>
+  <div class="particle" style="left: 85%; animation-delay: 13s;"></div>
+  <div class="particle" style="left: 95%; animation-delay: 14s;"></div>
 </div>
 
 <div class="hero-section">
@@ -89,16 +99,16 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
 
 ### 🛤️ TRAINING PROTOCOL
 
-| PHASE | OPERATION | DURATION | CLEARANCE LEVEL |
-|--------|-----------|----------|-----------------|
-| 1 | 🐧 **LINUX INFILTRATION** | 8 hours | CONFIDENTIAL |
-| 2 | 📜 **SCRIPT WARFARE** | 12 hours | SECRET |
-| 3 | 🔄 **VERSION CONTROL OPS** | 8 hours | SECRET |
-| 4 | 🐍 **PYTHON ARSENAL** | 24 hours | TOP SECRET |
-| 5 | 🏗️ **TERRAFORM PROTOCOLS** | 4 hours | TOP SECRET |
-| 6 | 🐳 **CONTAINER OPERATIONS** | 6 hours | CLASSIFIED |
-| 7 | ☸️ **KUBERNETES COMMAND** | 16 hours | ULTRA CLASSIFIED |
-| 8 | 📊 **SURVEILLANCE SYSTEMS** | 10 hours | BEYOND BLACK |
+| PHASE | OPERATION                   | DURATION | CLEARANCE LEVEL  |
+| ----- | --------------------------- | -------- | ---------------- |
+| 1     | 🐧 **LINUX INFILTRATION**   | 8 hours  | CONFIDENTIAL     |
+| 2     | 📜 **SCRIPT WARFARE**       | 12 hours | SECRET           |
+| 3     | 🔄 **VERSION CONTROL OPS**  | 8 hours  | SECRET           |
+| 4     | 🐍 **PYTHON ARSENAL**       | 24 hours | TOP SECRET       |
+| 5     | 🏗️ **TERRAFORM PROTOCOLS**  | 4 hours  | TOP SECRET       |
+| 6     | 🐳 **CONTAINER OPERATIONS** | 6 hours  | CLASSIFIED       |
+| 7     | ☸️ **KUBERNETES COMMAND**   | 16 hours | ULTRA CLASSIFIED |
+| 8     | 📊 **SURVEILLANCE SYSTEMS** | 10 hours | BEYOND BLACK     |
 
 <div class="progress-container">
   <div class="progress-bar">
@@ -152,12 +162,14 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
 <div class="module" style="background: rgba(255, 7, 58, 0.1); border-color: var(--neon-pink);">
 
 **MINIMUM SPECIFICATIONS:**
+
 - Basic operational knowledge of computer systems
 - GitHub account with two-factor authentication
 - 8GB RAM minimum (16GB recommended for advanced ops)
 - 50GB secured storage space
 
 **ADVANCED CLEARANCE:**
+
 - Command-line interface experience (helpful)
 - Programming fundamentals (beneficial)
 - Cloud provider access (AWS/GCP/Azure free tier)
@@ -288,6 +300,7 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
 </div>
 
 ### 🎖️ CLEARANCE REQUIREMENTS
+
 - Complete all 8 operational modules with 80% efficiency rating
 - Submit capstone mission with full documentation
 - Participate in peer review operations and community intel sharing
@@ -456,33 +469,38 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
 </div>
 
 <script>
-// Enhanced interactive functionality for cyber theme
+// Ultra Enhanced interactive functionality for cyber theme
 document.addEventListener('DOMContentLoaded', function() {
-  // Animate progress bars when they come into view
+  // Enhanced progress bar animations with staggered timing
   const progressBars = document.querySelectorAll('.progress-fill');
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+    entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
-        const randomProgress = Math.random() * 40 + 10; // 10-50%
-        entry.target.style.width = randomProgress + '%';
+        setTimeout(() => {
+          const randomProgress = Math.random() * 60 + 20; // 20-80%
+          entry.target.style.width = randomProgress + '%';
+          entry.target.style.animation = 'shimmer 2.5s infinite, gradientShift 3s ease-in-out infinite';
+        }, index * 200);
       }
     });
   }, { threshold: 0.1 });
   
   progressBars.forEach(bar => observer.observe(bar));
   
-  // Add glitch effect to special elements
+  // Enhanced glitch effect with sound simulation
   const glitchElements = document.querySelectorAll('.glitch');
   glitchElements.forEach(el => {
     el.addEventListener('mouseenter', function() {
-      this.style.animation = 'glitch-1 0.3s infinite';
+      this.style.animation = 'glitch-1 0.5s infinite, glitchFloat 0.5s infinite';
+      this.style.filter = 'brightness(1.5) contrast(1.2)';
       setTimeout(() => {
         this.style.animation = '';
-      }, 1000);
+        this.style.filter = '';
+      }, 1500);
     });
   });
   
-  // Add typing effect to the progress text
+  // Enhanced typing effect with cyber styling
   const progressText = document.querySelector('.progress-container p');
   if (progressText) {
     const originalText = progressText.textContent;
@@ -491,38 +509,203 @@ document.addEventListener('DOMContentLoaded', function() {
     const typeWriter = () => {
       if (i < originalText.length) {
         progressText.textContent += originalText.charAt(i);
+        progressText.style.textShadow = `0 0 10px rgba(0, 245, 255, ${0.5 + Math.random() * 0.5})`;
         i++;
-        setTimeout(typeWriter, 50);
+        setTimeout(typeWriter, 30);
+      } else {
+        progressText.style.textShadow = '0 0 20px rgba(0, 245, 255, 0.8)';
       }
     };
     setTimeout(typeWriter, 1000);
   }
   
-  // Create dynamic particle system
+  // Enhanced dynamic particle system
   function createParticle() {
     const particle = document.createElement('div');
     particle.className = 'particle';
     particle.style.left = Math.random() * 100 + '%';
-    particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+    particle.style.top = Math.random() * 100 + '%';
+    particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
+    particle.style.animationDelay = Math.random() * 2 + 's';
+    
+    // Random particle colors
+    const colors = ['var(--neon-blue)', 'var(--neon-purple)', 'var(--neon-green)', 'var(--neon-pink)', 'var(--neon-yellow)'];
+    particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+    
     document.querySelector('.floating-particles').appendChild(particle);
     
     setTimeout(() => {
-      particle.remove();
-    }, 6000);
+      if (particle.parentNode) {
+        particle.remove();
+      }
+    }, 8000);
   }
   
-  // Create particles periodically
-  setInterval(createParticle, 2000);
+  // Create particles with varying intervals
+  setInterval(createParticle, 1500);
+  setInterval(() => createParticle(), 3000);
   
-  // Add cyber sound effects (optional - can be commented out)
-  /*
+  // Enhanced button interactions
   const buttons = document.querySelectorAll('.btn');
   buttons.forEach(btn => {
+    btn.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateY(-5px) scale(1.1)';
+      this.style.boxShadow = '0 0 40px rgba(0, 245, 255, 0.8)';
+    });
+    
+    btn.addEventListener('mouseleave', function() {
+      this.style.transform = '';
+      this.style.boxShadow = '';
+    });
+    
     btn.addEventListener('click', function() {
-      // You can add cyber sound effects here
-      console.log('Cyber button activated:', this.textContent);
+      // Create ripple effect
+      const ripple = document.createElement('div');
+      ripple.style.position = 'absolute';
+      ripple.style.borderRadius = '50%';
+      ripple.style.background = 'rgba(0, 245, 255, 0.6)';
+      ripple.style.transform = 'scale(0)';
+      ripple.style.animation = 'ripple 0.6s linear';
+      ripple.style.left = '50%';
+      ripple.style.top = '50%';
+      ripple.style.width = '20px';
+      ripple.style.height = '20px';
+      ripple.style.marginLeft = '-10px';
+      ripple.style.marginTop = '-10px';
+      ripple.style.pointerEvents = 'none';
+      
+      this.appendChild(ripple);
+      
+      setTimeout(() => {
+        ripple.remove();
+      }, 600);
     });
   });
-  */
+  
+  // Add ripple animation
+  const style = document.createElement('style');
+  style.textContent = `
+    @keyframes ripple {
+      to {
+        transform: scale(4);
+        opacity: 0;
+      }
+    }
+  `;
+  document.head.appendChild(style);
+  
+  // Enhanced module hover effects
+  const modules = document.querySelectorAll('.module');
+  modules.forEach(module => {
+    module.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateY(-20px) scale(1.05)';
+      this.style.boxShadow = '0 0 50px rgba(0, 245, 255, 0.6)';
+      this.style.borderColor = 'var(--neon-blue)';
+    });
+    
+    module.addEventListener('mouseleave', function() {
+      this.style.transform = '';
+      this.style.boxShadow = '';
+      this.style.borderColor = '';
+    });
+  });
+  
+  // Enhanced stat card interactions
+  const statCards = document.querySelectorAll('.stat-card');
+  statCards.forEach(card => {
+    card.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateY(-15px) scale(1.08)';
+      this.style.boxShadow = '0 0 60px rgba(0, 245, 255, 0.7)';
+    });
+    
+    card.addEventListener('mouseleave', function() {
+      this.style.transform = '';
+      this.style.boxShadow = '';
+    });
+  });
+  
+  // Add parallax effect to background
+  window.addEventListener('scroll', function() {
+    const scrolled = window.pageYOffset;
+    const parallax = document.querySelector('.cyber-background');
+    if (parallax) {
+      parallax.style.transform = `translateY(${scrolled * 0.5}px)`;
+    }
+  });
+  
+  // Add mouse tracking effect
+  document.addEventListener('mousemove', function(e) {
+    const particles = document.querySelectorAll('.particle');
+    const mouseX = e.clientX / window.innerWidth;
+    const mouseY = e.clientY / window.innerHeight;
+    
+    particles.forEach((particle, index) => {
+      const speed = (index % 3 + 1) * 0.5;
+      const x = (mouseX - 0.5) * speed * 20;
+      const y = (mouseY - 0.5) * speed * 20;
+      particle.style.transform += ` translate(${x}px, ${y}px)`;
+    });
+  });
+  
+  // Add cyber sound effects simulation (visual feedback)
+  const links = document.querySelectorAll('a');
+  links.forEach(link => {
+    link.addEventListener('click', function(e) {
+      // Create a brief flash effect
+      const flash = document.createElement('div');
+      flash.style.position = 'fixed';
+      flash.style.top = '0';
+      flash.style.left = '0';
+      flash.style.width = '100%';
+      flash.style.height = '100%';
+      flash.style.background = 'rgba(0, 245, 255, 0.1)';
+      flash.style.pointerEvents = 'none';
+      flash.style.zIndex = '9999';
+      flash.style.animation = 'flash 0.3s ease-out';
+      
+      document.body.appendChild(flash);
+      
+      setTimeout(() => {
+        flash.remove();
+      }, 300);
+    });
+  });
+  
+  // Add flash animation
+  const flashStyle = document.createElement('style');
+  flashStyle.textContent = `
+    @keyframes flash {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+  `;
+  document.head.appendChild(flashStyle);
+  
+  // Enhanced table row interactions
+  const tableRows = document.querySelectorAll('tr');
+  tableRows.forEach(row => {
+    row.addEventListener('mouseenter', function() {
+      this.style.background = 'rgba(0, 245, 255, 0.15)';
+      this.style.transform = 'scale(1.02)';
+      this.style.boxShadow = '0 0 20px rgba(0, 245, 255, 0.3)';
+    });
+    
+    row.addEventListener('mouseleave', function() {
+      this.style.background = '';
+      this.style.transform = '';
+      this.style.boxShadow = '';
+    });
+  });
+  
+  // Add cyber loading animation
+  window.addEventListener('load', function() {
+    document.body.style.opacity = '0';
+    document.body.style.transition = 'opacity 1s ease-in';
+    
+    setTimeout(() => {
+      document.body.style.opacity = '1';
+    }, 100);
+  });
 });
 </script>
