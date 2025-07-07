@@ -2,6 +2,7 @@
 
 # VM Setup
 # Complete Guide: Installing Oracle VirtualBox and Setting Up Ubuntu VM
+# [Tutorial](https://www.youtube.com/watch?v=wX75Z-4MEoM)
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
