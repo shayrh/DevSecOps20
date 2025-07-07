@@ -3,8 +3,6 @@ layout: default
 title: "Linux Basics"
 ---
 
-{% include_relative lesson_summary.md %}
-
 # DevOps & Linux Fundamentals - Lesson 1 Summary
 
 ## Table of Contents
@@ -212,19 +210,6 @@ graph TB
         E[RAM - Main Memory]
         F[Storage - HDD/SSD]
     end
-
-    A <--> B
-    B <--> C
-    C <--> D
-    D <--> E
-    E <--> F
-
-    style A fill:#ffebee
-    style B fill:#e8f5e8
-    style C fill:#e8f5e8
-    style D fill:#e8f5e8
-    style E fill:#e3f2fd
-    style F fill:#fff3e0
 ```
 
 ### Data Processing Flow
