@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DevSecOps 20 - Elite Training Program"
+title: "DevSecOps 20 "
 description: "Master DevSecOps with cutting-edge labs, real-world projects, and advanced cybersecurity practices"
 ---
 
@@ -31,16 +31,6 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
   <p style="color:var(--text-secondary); font-size:1.2rem; margin-top:1rem;">Elite Training Program for Modern Cybersecurity</p>
 </header>
 
-<nav style="display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem; margin-bottom:2.5rem;">
-  <a class="btn" href="course-outline.md">📋 Course Outline</a>
-  <a class="btn" href="prerequisites.md">✅ Prerequisites</a>
-  <a class="btn" href="resources.md">📚 Resources</a>
-  <a class="btn" href="assessments/">🎯 Assessments</a>
-  <a class="btn" href="projects/">🚀 Projects</a>
-  <a class="btn" href="docs/setup-guide.md">⚙️ Setup Guide</a>
-  <a class="btn" href="https://discord.gg/DevSecOps20">💬 Discord</a>
-  <a class="btn" href="https://github.com/hothaifa96/DevSecOps20">🌐 GitHub</a>
-</nav>
 
 <section style="max-width:900px; margin:0 auto 3rem auto;">
   <h2 style="text-align:center; margin-bottom:2rem; background:var(--cyber-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; text-transform:uppercase; letter-spacing:2px;">Lessons</h2>
