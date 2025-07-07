@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DevSecOps Course - Elite Training Program"
+title: "DevSecOps 20 - Elite Training Program"
 description: "Master DevSecOps with cutting-edge labs, real-world projects, and advanced cybersecurity practices"
 ---
 
@@ -26,27 +26,41 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
   <div class="particle" style="left: 95%; animation-delay: 14s;"></div>
 </div>
 
-<div class="hero-section">
-  <h1 class="glitch" data-text="DEVSECOPS ELITE">🛡️ DEVSECOPS ELITE</h1>
-  <p style="text-align: center; font-size: 1.3rem; color: var(--text-secondary); margin: 2rem 0; text-transform: uppercase; letter-spacing: 2px;">
-    <span style="color: var(--neon-blue);">[CLASSIFIED]</span> Advanced Cybersecurity Training Protocol
-  </p>
-  
-  <div style="text-align: center; margin: 3rem 0;">
-    <div style="display: inline-block; padding: 1rem 2rem; background: rgba(0, 245, 255, 0.1); border: 1px solid var(--neon-blue); border-radius: 10px; margin: 0.5rem;">
-      <span style="color: var(--neon-green);">● ONLINE</span> | 
-      <span style="color: var(--neon-blue);">44 MODULES</span> | 
-      <span style="color: var(--neon-purple);">CERTIFICATION</span>
-    </div>
-  </div>
+<header style="text-align:center; margin-top:3rem; margin-bottom:2rem;">
+  <h1 class="glitch" data-text="DEVSECOPS 20" style="font-size:3.5rem;">🛡️ DEVSECOPS 20</h1>
+  <p style="color:var(--text-secondary); font-size:1.2rem; margin-top:1rem;">Elite Training Program for Modern Cybersecurity</p>
+</header>
 
-  <div class="badges">
-    <img src="https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge&logo=statuspage" alt="Course Status">
-    <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge&logo=opensourceinitiative" alt="License">
-    <img src="https://img.shields.io/badge/GITHUB%20PAGES-LIVE-success?style=for-the-badge&logo=github" alt="GitHub Pages">
-    <img src="https://img.shields.io/badge/SECURITY-LEVEL%205-red?style=for-the-badge&logo=security" alt="Security Level">
+<nav style="display:flex; flex-wrap:wrap; justify-content:center; gap:1.5rem; margin-bottom:2.5rem;">
+  <a class="btn" href="course-outline.md">📋 Course Outline</a>
+  <a class="btn" href="prerequisites.md">✅ Prerequisites</a>
+  <a class="btn" href="resources.md">📚 Resources</a>
+  <a class="btn" href="assessments/">🎯 Assessments</a>
+  <a class="btn" href="projects/">🚀 Projects</a>
+  <a class="btn" href="docs/setup-guide.md">⚙️ Setup Guide</a>
+  <a class="btn" href="https://discord.gg/DevSecOps20">💬 Discord</a>
+  <a class="btn" href="https://github.com/hothaifa96/DevSecOps20">🌐 GitHub</a>
+</nav>
+
+<section style="max-width:900px; margin:0 auto 3rem auto;">
+  <h2 style="text-align:center; margin-bottom:2rem; background:var(--cyber-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; text-transform:uppercase; letter-spacing:2px;">Lessons</h2>
+  <div class="course-modules">
+    <div class="module" style="text-align:center;">
+      <h3>🐧 Linux Basics</h3>
+      <p>Master command-line warfare, file system navigation, permission matrices, and process control. Foundation for all cyber operations.</p>
+      <a href="lessons/01-linux-basics/" class="btn btn-success">Start Lesson</a>
+    </div>
+    <!--
+    To add more lessons, copy the block above and update the folder and title.
+    Example:
+    <div class="module" style="text-align:center;">
+      <h3>📜 Bash Scripting</h3>
+      <p>Deploy automated bash protocols, handle system errors, and construct robust automation scripts for cyber warfare operations.</p>
+      <a href="lessons/02-bash-scripting/" class="btn btn-success">Start Lesson</a>
+    </div>
+    -->
   </div>
-</div>
+</section>
 
 ## 🎯 MISSION OBJECTIVES
 
