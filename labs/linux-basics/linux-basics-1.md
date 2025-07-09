@@ -20,6 +20,9 @@
 **Write your commands here**:
 ```bash
 # Your commands:
+1.pwd
+2.whoami
+3.echo $0
 
 
 ```
@@ -34,14 +37,14 @@
 **Write your command here**:
 ```bash
 # Your command:
-
+ls -lah
 
 ```
 
 **Follow-up**: What does the first character in the permissions column tell you?
 
 ---
-
+if it is directory or file
 ## Question 3: Create Directory Structure
 **Task**: Create the following directory structure in one command:
 ```
@@ -58,7 +61,7 @@ workspace/
 ```bash
 # Your command:
 
-
+mkdir -p workspace/documents workspace/projects/web workspace/projects/mobile
 ```
 
 **Verification**: Use `ls -R workspace/` to verify the structure was created correctly.
@@ -75,8 +78,8 @@ workspace/
 ```bash
 # Your commands:
 
-
-
+touch readme.txt
+cp readme.txt workspace/documents/
 
 ```
 
@@ -91,9 +94,9 @@ workspace/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
+1.apt update
+2.apt search text editor
+3.nano --help
 
 ```
 
@@ -110,8 +113,8 @@ workspace/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
+1.ps aux
+2.ps -u $USER -f
 
 
 ```
@@ -127,9 +130,9 @@ workspace/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
+1.echo $PATH
+2.echo $HOME
+3.echo $?
 
 ```
 
@@ -144,9 +147,9 @@ workspace/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
+1.date > timestamp.txt
+2.echo $USER >> timestamp.txt
+3.cat timestamp.txt
 
 ```
 
