@@ -37,14 +37,14 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
   <div class="course-modules">
     <div class="module" style="text-align:center;">
       <h3>🐧 Linux Basics</h3>
-      <p>Master command-line warfare, file system navigation, permission matrices, and process control. Foundation for all cyber operations.</p>
+       <p>Master command-line warfare, file system navigation, permission matrices, and process control. Foundation for all cyber operations.</p>
       <a href="lessons/01-linux-basics/" class="btn btn-success">Start Lesson</a>
     </div>
     <br>
     <br>
      <div class="module" style="text-align:center;">
       <h3>🐧 Linux Basics 2 </h3>
-      <p>Master command-line warfare, file system navigation, permission matrices, and process control. Foundation for all cyber operations.</p>
+            <p>File system navigation, and process control </p>
       <a href="lessons/02-linux-basics/" class="btn btn-success">Start Lesson</a>
       <a href="lessons/02-linux-basics/cheatsheet.md" class="btn btn-success">cheatsheet</a>
     </div>
