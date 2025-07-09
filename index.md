@@ -26,6 +26,7 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
   <div class="particle" style="left: 95%; animation-delay: 14s;"></div>
 </div>
 
+
 <header style="text-align:center; margin-top:3rem; margin-bottom:2rem;">
   <h1 class="glitch" data-text="DEVSECOPS 20" style="font-size:3.5rem;">🛡️ DEVSECOPS 20</h1>
   <p style="color:var(--text-secondary); font-size:1.2rem; margin-top:1rem;">Elite Training Program for Modern Cybersecurity</p>
@@ -46,7 +47,7 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
       <h3>🐧 Linux Basics 2 </h3>
             <p>File system navigation, and process control </p>
       <a href="lessons/02-linux-basics/" class="btn btn-success">Start Lesson</a>
-      <a href="lessons/02-linux-basics/cheatsheet.md" class="btn btn-success">cheatsheet</a>
+      <a href="docs/linux-cheatsheet/" class="btn btn-success">cheatsheet</a>
     </div>
     <!--
     To add more lessons, copy the block above and update the folder and title.
