@@ -40,6 +40,12 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
       <p>Master command-line warfare, file system navigation, permission matrices, and process control. Foundation for all cyber operations.</p>
       <a href="lessons/01-linux-basics/" class="btn btn-success">Start Lesson</a>
     </div>
+     <div class="module" style="text-align:center;">
+      <h3>🐧 Linux Basics 2 </h3>
+      <p>Master command-line warfare, file system navigation, permission matrices, and process control. Foundation for all cyber operations.</p>
+      <a href="lessons/02-linux-basics/" class="btn btn-success">Start Lesson</a>
+      <a href="lessons/02-linux-basics/cheatsheet.md" class="btn btn-success">cheatsheet</a>
+    </div>
     <!--
     To add more lessons, copy the block above and update the folder and title.
     Example:
