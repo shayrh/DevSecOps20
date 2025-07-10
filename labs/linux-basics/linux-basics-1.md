@@ -321,16 +321,16 @@ nonexistent_command; echo $?  # 127 - command not found
 **Write your command here**:
 ```bash
 # Your command:
-
-
+2.shows 10 files in etc that contain conf in extention 
+3.find /etc -name "*.conf" 2>/dev/null  | head -10 > config_files.txt
 ```
 
 **Explanation**:
 ```
 What does each part do?
-- find /etc -name "*.conf": 
-- 2>/dev/null: 
-- | head -10: 
+- find /etc -name "*.conf": 	Start searching under /etc directory.
+- 2>/dev/null: 	Suppress error messages (e.g., "Permission denied").
+- | head -10: show only firs 10 result
 ```
 
 ---
