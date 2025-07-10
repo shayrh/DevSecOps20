@@ -348,7 +348,11 @@ What does each part do?
 ```bash
 # Your commands:
 
-
+{
+  echo "$(date) System started"
+  echo "$(date) User logged in"
+  echo "$(date) Task completed"
+} > activity.log
 
 
 
