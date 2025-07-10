@@ -347,14 +347,14 @@ What does each part do?
 **Write your commands here**:
 ```bash
 # Your commands:
-
-{
+1. touch  activity.log
+2.{
   echo "$(date) System started"
   echo "$(date) User logged in"
   echo "$(date) Task completed"
 } > activity.log
 
-
+3.cat -n activiy.log 
 
 ```
 
