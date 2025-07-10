@@ -401,13 +401,15 @@ What does each part do?
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
-
-
-
-
-
+touch lab_final/system_report.sh
+cd lab_final/
+chmod +x system_report.sh
+echo '#!/bin/bash' > system_report.sh
+echo 'date' >> system_report.sh
+echo 'pwd' >> system_report.sh
+echo "echo '$PATH'" >> system_report.sh
+echo "du -sh ." >> system_report.sh
+/system_report.sh >> final_report.txt
+echo $?
 ```
 
