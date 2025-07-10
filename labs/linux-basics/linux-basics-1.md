@@ -222,8 +222,9 @@ cp readme.txt workspace/documents/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
+1.touch names.txt && echo "Alice" >> names.txt && echo "Bob" >> names.txt && echo "Charlie" >> names.txt
+2.sort names.txt > sorted_names.txt
+3.
 
 
 ```
