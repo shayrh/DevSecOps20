@@ -164,9 +164,9 @@ cp readme.txt workspace/documents/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
+l. ls /nonexistent
+2. ls /nonexistent 2> errors.log
+3. ls /nonexistent > stdout.log; cat stdout.log
 
 ```
 
@@ -199,10 +199,10 @@ cp readme.txt workspace/documents/
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
-
+1.echo "echo 'Hello World'" > script.sh
+2.chmod +x script.sh
+3.ls -l script.sh
+4../script.sh
 
 ```
 
