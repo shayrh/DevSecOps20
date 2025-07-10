@@ -282,8 +282,10 @@ cp readme.txt workspace/documents/
 **Write your commands and exit codes here**:
 ```bash
 # Commands and their exit codes:
-
-
+ls /home; echo $?        # 0 - success
+ls /root; echo $?        # 2 - permission denied (non-root user)
+date; echo $?            # 0 - success
+nonexistent_command; echo $?  # 127 - command not found
 
 
 
