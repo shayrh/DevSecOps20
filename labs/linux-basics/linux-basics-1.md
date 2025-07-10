@@ -303,10 +303,10 @@ nonexistent_command; echo $?  # 127 - command not found
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
-
+1.head -n 5 /etc/passwd
+2.tail -n 3 /etc/passwd
+3.wc -l /etc/passwd
+4.wc -l /etc/passwd > user_count.txt
 
 ```
 
