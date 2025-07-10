@@ -371,9 +371,11 @@ What does each part do?
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
-
+1. cd workspace/projects/web/
+2. touch index.html
+3. cd
+4. m -rf workspace
+5. ls
 
 
 
