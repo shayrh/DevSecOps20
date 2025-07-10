@@ -182,8 +182,8 @@ cp readme.txt workspace/documents/
 ```bash
 # Your commands:
 
-
-
+2. ls /home /nonexistent > success.txt 2> errors.txt
+3. 127
 
 ```
 
