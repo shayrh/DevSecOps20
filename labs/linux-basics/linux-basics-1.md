@@ -241,9 +241,9 @@ cp readme.txt workspace/documents/
 ```bash
 # Your commands:
 
-
-
-
+1.mkdir -p workspace/documents && cp -p ./*.txt workspace/documents/
+2.mv workspace/documents/s* workspace/
+3.find workspace/documents/ -type d -empty -delete
 ```
 
 ---
@@ -261,7 +261,7 @@ cp readme.txt workspace/documents/
 ```bash
 # Your commands:
 
-
+1.touch system_info.txt && echo date -d now >> system_info.txt && echo $USER >> system_info.txt && pwd >> system_info.txt
 
 
 
