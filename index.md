@@ -49,6 +49,14 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
       <a href="lessons/02-linux-basics/" class="btn btn-success">Start Lesson</a>
       <a href="docs/linux-cheatsheet/" class="btn btn-success">cheatsheet</a>
     </div>
+    <br>
+    <br>
+    <div class="module" style="text-align:center;">
+      <h3>🐧 Linux Basics 2 </h3>
+            <p>users permissions and binary </p>
+      <a href="lessons/03-linux-basics/" class="btn btn-success">Start Lesson</a>
+      <a href="lessons/03-linux-basics/cheatsheet.md" class="btn btn-success">cheatsheet</a>
+    </div>
     <!--
     To add more lessons, copy the block above and update the folder and title.
     Example:
