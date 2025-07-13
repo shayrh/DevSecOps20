@@ -26,12 +26,10 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
   <div class="particle" style="left: 95%; animation-delay: 14s;"></div>
 </div>
 
-
 <header style="text-align:center; margin-top:3rem; margin-bottom:2rem;">
   <h1 class="glitch" data-text="DEVSECOPS 20" style="font-size:3.5rem;">🛡️ DEVSECOPS 20</h1>
   <p style="color:var(--text-secondary); font-size:1.2rem; margin-top:1rem;">Elite Training Program for Modern Cybersecurity</p>
 </header>
-
 
 <section style="max-width:900px; margin:0 auto 3rem auto;">
   <h2 style="text-align:center; margin-bottom:2rem; background:var(--cyber-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; text-transform:uppercase; letter-spacing:2px;">Lessons</h2>
@@ -66,6 +64,17 @@ description: "Master DevSecOps with cutting-edge labs, real-world projects, and 
       <a href="lessons/02-bash-scripting/" class="btn btn-success">Start Lesson</a>
     </div>
     -->
+  </div>
+</section>
+
+<section style="max-width:900px; margin:0 auto 3rem auto;">
+  <h2 style="text-align:center; margin-bottom:2rem; background:var(--cyber-gradient); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; text-transform:uppercase; letter-spacing:2px;">Labs</h2>
+  <div class="course-modules">
+    <div class="module" style="text-align:center;">
+      <h3>🔬 Hands-On Labs</h3>
+      <p>Apply your knowledge with practical exercises, real-world scenarios, and interactive challenges. Master DevSecOps through hands-on experience.</p>
+      <a href="labs/" class="btn btn-success">Access Labs</a>
+    </div>
   </div>
 </section>
 
