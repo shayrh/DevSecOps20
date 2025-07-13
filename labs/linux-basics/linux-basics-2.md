@@ -16,11 +16,11 @@
 
 ### Tasks:
 
-1. Create a new user named `alice`. sudo useradd alice
-2. Create a new group named `devops`.sudo groupadd devops
-3. Add `alice` to the `devops` group. <!-- sudo usermod -a -G devops alice -->
-4. Display `alice`'s user and group information. <!-- id alice -->
-5. Delete the user `alice` and remove their home directory.
+1. Create a new user named `alice`. 'sudo useradd alice'
+2. Create a new group named `devops`.'sudo groupadd devops'
+3. Add `alice` to the `devops` group. 'sudo usermod -a -G devops alice'
+4. Display `alice`'s user and group information. 'id alice'
+5. Delete the user `alice` and remove their home directory.'sudo userdel -r alice'
 
 ---
 
@@ -28,11 +28,11 @@
 
 ### Tasks:
 
-1. Create a new file called `testfile`.
-2. Set `testfile`'s permissions to `755` using numeric mode.
-3. Change the file's user permission to remove execute access using symbolic mode.
-4. Change the file owner to your current user.
-5. Set SUID, SGID, and sticky bits on `testfile`.
+1. Create a new file called `testfile`.'touch testfile'
+2. Set `testfile`'s permissions to `755` using numeric mode.'chmod +755 testfile'
+3. Change the file's user permission to remove execute access using symbolic mode.'chmod u-x testfile'
+4. Change the file owner to your current user.'sudo chown hen testfile'
+5. Set SUID, SGID, and sticky bits on `testfile`.'sudo chmod u+s,g+s,+t testfile'
 
 ---
 
