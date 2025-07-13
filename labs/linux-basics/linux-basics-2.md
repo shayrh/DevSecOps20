@@ -9,7 +9,8 @@
 3. Convert the binary number `1101` to decimal.
 4. Convert the hexadecimal number `FF` to decimal.
 5. Write a script that takes a decimal number as input and prints its binary and hexadecimal equivalents.
-
+1.13:2 = 6 reminder 1, 6:2=3 reminder 0, 3:2=1 reminder 1,
+2.255:16=15 reminder 
 ---
 
 ## 2: Users and Groups in Ubuntu
