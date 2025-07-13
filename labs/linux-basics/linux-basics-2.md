@@ -4,8 +4,8 @@
 
 ### Tasks:
 
-1. Convert the decimal number `13` to binary.
-2. Convert the decimal number `255` to hexadecimal.
+1. Convert the decimal number `13` to binary. Process: 13 ÷ 2 = 6 remainder 1, 6 ÷ 2 = 3 remainder 0, 3 ÷ 2 = 1 remainder 1, 1 ÷ 2 = 0 remainder 1
+2. Convert the decimal number `255` to hexadecimal. :255 mod 16 = 15 reminder 15 (f) , 15 mod 16= 0  reminder 15 (f) = ff
 3. Convert the binary number `1101` to decimal.
 4. Convert the hexadecimal number `FF` to decimal.
 5. Write a script that takes a decimal number as input and prints its binary and hexadecimal equivalents.
